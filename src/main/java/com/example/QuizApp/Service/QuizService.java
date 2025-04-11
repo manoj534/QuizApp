@@ -58,6 +58,8 @@ public class QuizService {
         int right = 0;
         int i = 0;
 
+        System.out.println("hello");
+
         for(Response r: responses){
             if(r.getRightAnswer().equals(questionList.get(i).getRightAnswer())){
                 right++;
