@@ -59,6 +59,7 @@ public class QuizService {
         int i = 0;
 
         System.out.println("hello");
+        System.out.println("hi how are you");
 
         for(Response r: responses){
             if(r.getRightAnswer().equals(questionList.get(i).getRightAnswer())){
